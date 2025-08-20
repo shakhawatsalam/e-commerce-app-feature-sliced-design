@@ -1,10 +1,12 @@
-import { AppRouter } from "@/providers";
-
+import { AppRouter } from "@/app/providers";
+import { Suspense } from "react";
 
 function App() {
   return (
     <>
-      <AppRouter />
+      <Suspense fallback={<></>}>
+        <AppRouter />
+      </Suspense>
     </>
   );
 }

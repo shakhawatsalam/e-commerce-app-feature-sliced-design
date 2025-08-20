@@ -1,0 +1,15 @@
+.wrapper {
+    background-color: var(--primary-color-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6;
+    border-radius: 100%;
+    fill: var(--primary-color);
+   
+}
+
+
+.filled{
+    fill: var(--primary-color);
+}
