@@ -28,12 +28,17 @@ export const Button = (props: ButtonProps) => {
     <button
       {...rest}
       disabled={disabled}
-      className={cn(styles.button, styles[size], styles[form], styles[theme], {
-        [styles.disabled]: disabled,
-      })}>
+      className={cn(
+        styles.button,
+        className,
+        styles[size],
+        styles[form],
+        styles[theme],
+        {
+          [styles.disabled]: disabled,
+        }
+      )}>
       {children}
     </button>
   );
 };
-
-
