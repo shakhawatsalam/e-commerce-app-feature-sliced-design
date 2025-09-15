@@ -7,7 +7,6 @@ import { Button } from "@/shared/ui";
 
 import styles from "./NotFound.module.scss";
 
-
 const NotFound = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
