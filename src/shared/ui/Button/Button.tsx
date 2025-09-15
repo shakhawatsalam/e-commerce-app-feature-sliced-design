@@ -1,6 +1,9 @@
-import { cn } from "@/shared/lib";
 import type { ButtonHTMLAttributes, ReactNode } from "react";
+
+import { cn } from "@/shared/lib";
+
 import styles from "./Button.module.scss";
+
 type ButtonSize = "xs" | "sm" | "md" | "lg";
 type ButtonForm = "rounded" | "pill" | "circle";
 type ButtonTheme = "primary" | "secondary" | "tertiary" | "outline" | "ghost";
