@@ -9,7 +9,7 @@ export const PageLoader = () => {
   return (
     <div className={styles.wrapper}>
       <h1 className={styles.title}>{t("pageLoader.loading")}</h1>
-      <Spinner />
+      <Spinner size="lg"/>
     </div>
   );
 };

@@ -63,12 +63,6 @@
 }
 
 
-.ghost {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    font-weight: 500;
-}
 
 
 .disabled {
@@ -154,4 +148,18 @@
 .md,
 .lg {
     font-weight: 600;
+}
+
+
+
+.ghost {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-weight: 500;
+}
+
+
+.fullWidth{
+    width: 100%;
 }
